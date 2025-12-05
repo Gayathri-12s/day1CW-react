@@ -15,10 +15,10 @@ function App() {
           
      
      <div className = "card" >
-      <h2> Welcome to React Learning, {userName} </h2>
+      <h2 className='text-center 'style={{color:"orange", fontFamily: "sans-serif"}}> Welcome to React Learning, {userName} </h2>
      
 
-     <img  src = {images} className = "img-fluid mx-auto" alt = "Responsive Image" width = "200" height = "200"/>
+     <img  src = {images} className = "img-fluid mx-auto mt-3" alt = "Responsive Image" width = "200" height = "200"/>
      <div className = "card-body mb-3">
       <p className = "card-text text-center text-muted">This is your first card with images and styles! </p>
     </div>
